@@ -1,5 +1,5 @@
-import Counter from "./components/Counter";
-import MyGitHub from "./components/MyGitHub";
+import Counter from "./components/Counter.jsx";
+import MyGitHub from "./components/MyGitHub.jsx";
 
 function App() {
   return (

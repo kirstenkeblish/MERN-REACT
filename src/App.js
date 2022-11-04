@@ -1,4 +1,4 @@
-import Counter from "./components/Counter";
+import MyCounter from "./components/MyCounter";
 import MyGitHub from "./components/MyGitHub";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
         Hello React!
       </h1>
       <h2>
-        Daniel DeFrance - h48c334
+        Kirsten Keblish - f51c944
       </h2>
 
       <hr />

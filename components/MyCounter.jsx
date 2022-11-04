@@ -1,4 +1,4 @@
-const Counter = () => {
+const MyCounter = () => {
     let countState = 77
     return (
         <div>
@@ -7,4 +7,4 @@ const Counter = () => {
         </div>
     )
 }
-export default Counter;
+export default MyCounter;

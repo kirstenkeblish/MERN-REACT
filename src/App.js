@@ -12,8 +12,8 @@ function App() {
       </h2>
 
       <hr />
-      <MyCounter/><hr />
-      <MyCounter /><hr />
+      <MyCounter incBy={1}/><hr />
+      <MyCounter incBy={1}/><hr />
       <MyGitHub /><hr />
 
     </div>

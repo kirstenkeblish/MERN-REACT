@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 
-const MyCounter = () => {
+const MyCounter = (props) => {
     //let countState = 77
     const [countState, setCountState] = useState(0);
 
@@ -11,7 +11,7 @@ const MyCounter = () => {
     return (
         <div>
             <div>{countState}</div>
-            <button onClick={incCount}>+1</button>
+            <button onClick={incCount}>+{props.incBy}</button>
         </div>
     )
 }

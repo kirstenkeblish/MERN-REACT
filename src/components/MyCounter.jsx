@@ -5,7 +5,7 @@ const MyCounter = (props) => {
     const [countState, setCountState] = useState(0);
 
     function incCount(){
-        setCountState(countState + 1);
+        setCountState(countState + props.incBy);
     }
 
     return (
